@@ -5,6 +5,7 @@ def sayHi():
 def sayBye():
     print('Bye')
     return 4221
+    return 4221
 
 
 time = 0
