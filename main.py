@@ -2,6 +2,10 @@ def sayHi():
     print('Hello')
 
 
+def sayMario():
+    print('Mario')
+
+
 time = 0
 
 if time != 10:
