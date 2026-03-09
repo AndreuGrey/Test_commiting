@@ -8,10 +8,14 @@ def sayMario():
 
 time = 0
 
-if time != 10:
-    time += 1
-else:
-    sayHi
+while True:
+    if time != 10:
+        print(time)
+        time += 1
+    else:
+        sayHi()
+        break
+
 
 a = 'Python'
 b = 4221
